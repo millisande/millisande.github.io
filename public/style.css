@@ -1,0 +1,48 @@
+body {
+  background-color: black;
+}
+
+.header {
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  font-family: monospace;
+  text-align: center
+}
+
+.dials {
+  position: static;
+}
+
+#dial {
+  height: 200px;
+  width: 200px;
+  margin: auto;
+  padding-top: 49px;
+  display: block;
+}
+
+.marks img {
+  height: 80px;
+  display: block;
+  margin: auto;
+}
+
+#marker1 {
+  transform: rotate(40deg);
+  right: 110px;
+  top: -40px;
+  position: relative;
+}
+
+#marker2 {
+  top: -80px;
+  position: relative;
+}
+
+#marker3 {
+ transform: rotate(320deg);
+ left: 108px;
+ position: relative;
+ top: -200px
+}
