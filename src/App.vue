@@ -3,25 +3,18 @@
 <div class="header">
    <h1>millisande</h1>
 </div>
-<div class="container">
-  <div class="dials">
-      <img id="dial" src="./images/Dial_Icon.png">
-      <div class="marks">
-        <img id="marker1" src="./images/marker.png">
-        <img id="marker2" src="./images/marker.png">
-        <img id="marker3" src="./images/marker.png">
-      </div>
-    </div>
-  </div>
+  <dial-component />
   <hello-component name="World" />
 </div>
 </template>
 
 <script>
 import HelloComponent from './components/HelloComponent.vue'
+import DialComponent from './components/DialComponent.vue'
 export default {
   components: {
-    HelloComponent
+    HelloComponent,
+    DialComponent
   }
 }
 </script>
